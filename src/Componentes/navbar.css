@@ -1,0 +1,31 @@
+nav {
+    position: fixed;        /* Posiciona el navbar en la parte superior */
+    top: 0;                 /* Alinea en la parte superior */
+    width: 100%;            /* Ocupa toda la anchura */
+    background-color: #0f031f; /* Fondo del navbar */
+    display: flex;          /* Distribuye elementos horizontalmente */
+    align-items: center;    /* Centra verticalmente los elementos */
+    padding: 10px 20px;     /* Espaciado interno */
+    z-index: 1000;          /* Mantiene el navbar por encima de otros elementos */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 2px;
+    background: -webkit-linear-gradient(#e2dc2f, #590586);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+.nav-btn {
+    color: white;
+    text-decoration: none; /* Elimina el subrayado en los links */
+    margin: 15px;        /* Espacio entre cada botón */
+    padding: 5px 10px;     /* Añade espaciado interno */
+    border-radius: 4px;    /* Bordes redondeados */
+    transition: background-color 1s; /* Transición suave */
+}
+
+.nav-btn:hover {
+    background-color: #281632; /* Color al pasar el mouse */
+}
